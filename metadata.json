@@ -1,0 +1,10 @@
+{
+  "dataset":"Annual National Land Cover Database (NLCD) Collection 1 Products (ver. 1.1, June 2025)",
+  "publisher":"USGS Earth Resources Observation and Science (EROS) Center",
+  "year":2024,
+  "variable":"land cover",
+  "units":"N/A",
+  "DOI":"10.5066/P94UXNTS",
+  "source_url":"https://www.mrlc.gov/data",
+  "rights": "Public Domain"
+}

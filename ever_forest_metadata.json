@@ -1,0 +1,9 @@
+{
+  "dataset":"Ever Forest Derived from Annual National Land Cover Database (NLCD) Collection 1 Products (ver. 1.1, June 2025)",
+  "publisher":"University of Idaho (Roger Lew)",
+  "year":2025,
+  "variable":"land cover",
+  "units":"N/A",
+  "source_url":"https://github.com/rogerlew/us-conus-nlcd-ever-forest/",
+  "rights": "Public Domain"
+}

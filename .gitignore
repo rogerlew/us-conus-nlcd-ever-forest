@@ -1,0 +1,14 @@
+# Ignore all numeric year directories (1980s–2090s)
+19[0-9][0-9]/
+20[0-9][0-9]/
+
+# Ignore the ever_forest folder
+ever_forest/
+
+# Ignore typical junk
+*.log
+*.tmp
+*.swp
+.DS_Store
+__pycache__/
+*.pyc
