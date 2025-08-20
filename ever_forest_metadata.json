@@ -5,5 +5,131 @@
   "variable":"land cover",
   "units":"N/A",
   "source_url":"https://github.com/rogerlew/us-conus-nlcd-ever-forest/",
-  "rights": "Public Domain"
+  "rights": "Public Domain",
+  "classes": [
+    {
+      "value": 11,
+      "group": "Water",
+      "label": "Open Water",
+      "description": "Areas of open water, generally with less than 25% cover of vegetation or soil."
+    },
+    {
+      "value": 12,
+      "group": "Water",
+      "label": "Perennial Ice/Snow",
+      "description": "Areas characterized by a perennial cover of ice and/or snow, generally greater than 25% of total cover."
+    },
+    {
+      "value": 21,
+      "group": "Developed",
+      "label": "Developed, Open Space",
+      "description": "Areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. Impervious surfaces account for <20% of total cover. Often large-lot single-family housing, parks, golf courses, or landscaped areas."
+    },
+    {
+      "value": 22,
+      "group": "Developed",
+      "label": "Developed, Low Intensity",
+      "description": "Areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 20–49% of total cover. Commonly single-family housing."
+    },
+    {
+      "value": 23,
+      "group": "Developed",
+      "label": "Developed, Medium Intensity",
+      "description": "Areas with a mixture of constructed materials and vegetation. Impervious surfaces account for 50–79% of total cover. Often single-family housing."
+    },
+    {
+      "value": 24,
+      "group": "Developed",
+      "label": "Developed, High Intensity",
+      "description": "Highly developed areas where people reside or work in high numbers (e.g., apartments, row houses, commercial/industrial). Impervious surfaces account for 80–100% of total cover."
+    },
+    {
+      "value": 31,
+      "group": "Barren",
+      "label": "Barren Land (Rock/Sand/Clay)",
+      "description": "Areas of bedrock, desert pavement, scarps, talus, slides, volcanic material, glacial debris, sand dunes, strip mines, gravel pits and other accumulations of earthen material. Vegetation generally <15% of total cover."
+    },
+    {
+      "value": 41,
+      "group": "Forest",
+      "label": "Deciduous Forest",
+      "description": "Areas dominated by trees generally >5 m tall and >20% vegetation cover. >75% of tree species shed foliage simultaneously in response to seasonal change."
+    },
+    {
+      "value": 42,
+      "group": "Forest",
+      "label": "Evergreen Forest",
+      "description": "Areas dominated by trees generally >5 m tall and >20% vegetation cover. >75% of tree species maintain leaves year-round; canopy is never without green foliage."
+    },
+    {
+      "value": 43,
+      "group": "Forest",
+      "label": "Mixed Forest",
+      "description": "Areas dominated by trees generally >5 m tall and >20% vegetation cover. Neither deciduous nor evergreen species exceed 75% of total tree cover."
+    },
+    {
+      "value": 51,
+      "group": "Shrubland",
+      "label": "Dwarf Scrub",
+      "description": "Alaska only: areas dominated by shrubs <20 cm tall with shrub canopy typically >20% of total vegetation, often with grasses, sedges, herbs, or non-vascular vegetation.",
+      "region": "Alaska only"
+    },
+    {
+      "value": 52,
+      "group": "Shrubland",
+      "label": "Shrub/Scrub",
+      "description": "Areas dominated by shrubs <5 m tall with shrub canopy typically >20% of total vegetation; includes true shrubs, young trees in early succession, or trees stunted by environmental conditions."
+    },
+    {
+      "value": 71,
+      "group": "Herbaceous",
+      "label": "Grassland/Herbaceous",
+      "description": "Areas dominated by graminoid or herbaceous vegetation, generally >80% of total vegetation; not subject to intensive tilling, but can be used for grazing."
+    },
+    {
+      "value": 72,
+      "group": "Herbaceous",
+      "label": "Sedge/Herbaceous",
+      "description": "Alaska only: areas dominated by sedges and forbs, generally >80% of total vegetation; may include significant grasses or other grass-like plants (e.g., sedge tundra, sedge tussock tundra).",
+      "region": "Alaska only"
+    },
+    {
+      "value": 73,
+      "group": "Herbaceous",
+      "label": "Lichens",
+      "description": "Alaska only: areas dominated by fruticose or foliose lichens, generally >80% of total vegetation.",
+      "region": "Alaska only"
+    },
+    {
+      "value": 74,
+      "group": "Herbaceous",
+      "label": "Moss",
+      "description": "Alaska only: areas dominated by mosses, generally >80% of total vegetation.",
+      "region": "Alaska only"
+    },
+    {
+      "value": 81,
+      "group": "Planted/Cultivated",
+      "label": "Pasture/Hay",
+      "description": "Areas of grasses, legumes, or grass–legume mixtures planted for livestock grazing or production of seed/hay, typically on a perennial cycle. Vegetation accounts for >20% of total vegetation."
+    },
+    {
+      "value": 82,
+      "group": "Planted/Cultivated",
+      "label": "Cultivated Crops",
+      "description": "Areas used for production of annual crops (e.g., corn, soybeans, vegetables, tobacco, cotton) and perennial woody crops (e.g., orchards, vineyards). Crop vegetation >20% of total vegetation; includes all land being actively tilled."
+    },
+    {
+      "value": 90,
+      "group": "Wetlands",
+      "label": "Woody Wetlands",
+      "description": "Areas where forest or shrubland vegetation accounts for >20% of vegetative cover and the soil or substrate is periodically saturated with or covered with water."
+    },
+    {
+      "value": 95,
+      "group": "Wetlands",
+      "label": "Emergent Herbaceous Wetlands",
+      "description": "Areas where perennial herbaceous vegetation accounts for >80% of vegetative cover and the soil or substrate is periodically saturated with or covered with water."
+    }
+  ]
 }
