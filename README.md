@@ -1,5 +1,7 @@
 # US CONUS NLCD Ever Forest Collection
 
+![Ever Forest Map](https://media.githubusercontent.com/media/rogerlew/us-conus-nlcd-ever-forest/main/ever_forest_map.png)
+
 This repository contains scripts and metadata for building derived land cover layers from the **Annual National Land Cover Database (NLCD) Collection 1 Products (ver. 1.1, June 2025)**.  
 
 These derived products were created to support **watershed modeling in [WEPPcloud](https://wepp.cloud/)**.  
