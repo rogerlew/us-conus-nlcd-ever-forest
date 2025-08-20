@@ -55,6 +55,19 @@ The repository includes scripts to automate download, processing, and dataset ge
    - Creates symlinks to `metadata.json` inside each year’s directory.
    - Ensures consistent dataset description.
 
+5. **Symlink Ever Forest Metadata**
+   ```bash
+   ./_4_symlink_ever_forest_metadata.sh
+   ```
+   - Creates symlinks to `ever_forest_metadata.json` inside each year’s directory.
+   - Ensures consistent dataset description.
+
+6. **Create Cloud Optimized Geotiffs**
+   ```bash
+   ./_6_make_ever_forest_cogs.sh
+   ```
+   - Cloud Optimizes Ever Forest .tif files
+
 ---
 
 ## Metadata
