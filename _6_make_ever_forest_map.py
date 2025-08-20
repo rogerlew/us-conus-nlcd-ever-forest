@@ -174,3 +174,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# python _6_make_ever_forest_map.py  --input ever_forest/ever_forest.tif   --output ever_forest_map.png   --target-width 4500
+

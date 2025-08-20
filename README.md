@@ -64,9 +64,13 @@ The repository includes scripts to automate download, processing, and dataset ge
 
 6. **Create Cloud Optimized Geotiffs**
    ```bash
-   ./_6_make_ever_forest_cogs.sh
+   ./_5_make_ever_forest_cogs.sh
    ```
    - Cloud Optimizes Ever Forest .tif files
+
+7. **Create** Thumbnail plot (Optional)
+   ```bash
+   ./_6_make_ever_forest_map.py --input ever_forest/ever_forest.tif --output ever_forest_map.png --target-width 4500
 
 ---
 
@@ -93,6 +97,8 @@ Example fields:
 
 - **Source Data**: U.S. Geological Survey (USGS) National Land Cover Database (NLCD).  
 - **Rights**: Public Domain. Works of the USGS are not subject to copyright in the United States.  
+              This Dataset and associated code is Public Domain.
+
 - **Disclaimer**:  
   This repository and derived products are provided *as is* with no warranty.  
   They are intended for research and educational purposes, particularly in watershed modeling.  
